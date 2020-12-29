@@ -1,0 +1,493 @@
+/* Large only */
+@media (min-width: 1200px) {}
+/* Medium and down */
+@media (max-width: 1199px) { 
+.header-social{width:94px;margin-left:0}
+#section-menu .standard-menu ul li ul,#section-menu-mobile-ddl .standard-menu ul{width:150px}
+#section-menu .standard-menu ul li ul li ul,#section-menu-mobile-ddl .standard-menu ul li ul{left:150px}
+#section-menu .standard-menu.after ul li ul li ul{left:-150px}
+#new-articles .post-container a{padding:16px 16px 16px 50px}
+#new-articles .post-container .no-icon a{padding-left:16px;font-size:13px}
+.mega-wrapper .post-list img{left:0;padding:0 10px}
+.utility-menu a{padding:11px}
+.utility-menu .home-button a{width:29px;padding:7px 7px 9px 11px}
+.porthole-info h3{font-size:15px;line-height:17px}
+.cols-4 .porthole-info h3{font-size:17px;line-height:19px}
+.cols-3 .porthole-info h3{font-size:20px;line-height:22px}
+.post-grid .grid-3 h3 a{font-size:18px;line-height:21px}
+.post-grid .grid-4 h3 a{font-size:14px;line-height:16px}
+.articles.gradient h3{margin-bottom:10px;margin-left:9px}
+.articles.gradient .user_rating{padding:0 7px 8px 5px}
+.post-grid .grid-3 .meter-circle-wrapper{margin-top:16%}
+.post-grid .grid-4 .meter-circle-wrapper{margin-top:13%}
+.articles .excerpt{font-size:12px;line-height:17px}
+.post-grid .authorship.type-author{padding-right:10px}
+.post-blog.articles.gradient h3{margin-bottom:8px;line-height:24px}
+.post-blog.articles .article-info{padding-left:285px}
+.post-blog.articles .awards-wrapper{margin-bottom:6px}
+.ms-layer.ms-caption-title{padding-right:120px!important}
+.ms-layer.ms-caption-title h1 a{font-size:24px;padding:12px 15px 30px}
+.ms-layer.ms-caption-title h1{line-height:30px}
+.ms-layer.ms-caption-column{width:110px}
+.hero-column{margin-top:36px}
+.hero-label.bar-label-lg{width:110px;height:36px;padding:8px 2px}
+.hero-panel{padding:8px 4px}
+.hero-rating .user_rating{margin:0 auto}
+.hero-meta .metric{margin:2px auto}
+.ms-thumb-list.ms-dir-v .ms-thumb-frame{height:75px}
+.ms-tabs-template .ms-thumb-list.ms-dir-v .ms-thumb-frame .ms-thumb-ol{height:75px;background-size:14px 75px!important}
+.ms-tabs-template .ms-thumb{padding:9px 10px 9px 15px}
+.ms-tabs-template .ms-thumb-frame .circle-image{top:10px}
+.ms-skin-default .ms-slide .ms-slide-vpbtn{margin-left:-80px}
+.headliner-info{padding:26px 15px 15px 400px}
+.headliner-info a.title{font-size:30px;line-height:35px}
+.connect-email input.email-textbox{width:130px;padding:7px 7px 8px 32px}
+.connect-email .theme-icon-email{left:4px}
+.connect-social{padding:7px}
+.connect-counts .social-counts{padding:0 0 0 10px}
+.connect-counts .social-counts .social-panel{padding-left:0}
+.post-blog.articles.gradient.compact h3{line-height:24px;margin:0 0 6px}
+.post-blog.articles.compact .excerpt{font-size:12px;margin:6px 0}
+.post-blog.articles.compact .authorship{margin:6px 0}
+.trending-bar.large .title{font-size:14px;line-height:14px}
+.trending-bar.medium .title{font-size:13px;line-height:13px}
+.trending-bar.small .title{font-size:12px;line-height:12px}
+.trending-bar.tiny .title{font-size:11px;line-height:11px}
+#main-content h1{font-size:38px;line-height:44px}
+#main-content h2{font-size:28px;line-height:33px}
+#main-content h3{font-size:24px;line-height:30px}
+#main-content h4{font-size:20px;line-height:26px}
+#main-content h5{font-size:17px;line-height:21px}
+#main-content h6{font-size:14px;line-height:19px}
+.contents-menu .sort-buttons a{padding:11px 7px}
+h1.main-title{font-size:40px;line-height:46px}
+.billboard h1.main-title{font-size:60px;line-height:60px;margin:50px 40px 50px}
+.billboard-subtitle {font-size:28px}
+.container.billboard .container.boxed{margin-top:70px}
+#recommended h3{font-size:20px;line-height:24px}
+.demo-wrapper{position:absolute!important}
+#comments .comment-avatar-wrapper{width:13%}
+#comments .comment-content{width:87%}
+#comments ul ul{margin-left:5%}
+#comments ul ul .comment-avatar-wrapper{width:15%}
+#comments ul ul .comment-content{width:85%}
+#comments ul ul ul ul ul .comment-avatar-wrapper{width:18%}
+#comments ul ul ul ul ul .comment-content{width:82%}
+#comments ul ul ul ul ul ul ul ul ul ul{margin-left:23%}
+#comments ul ul ul ul ul ul ul ul ul ul .comment-content{width:100%}
+#comments ul ul ul ul ul ul ul ul ul ul ul .comment-rating .rating-wrapper{width:220px}
+.comment-ratings-inner{margin-left:15px;padding:8px 10px}
+.header-social a,.billboard-authorship .authorship,.billboard-authorship .authorship a{font-size:14px}
+.porthole-info .award-wrapper,.widgets .pagination-wrapper,#comments ul ul ul ul ul ul ul ul ul ul .comment-avatar-wrapper{display:none}
+.widgets .pagination-wrapper.mobile{display:block}
+.post-blog.articles.gradient h3 a,.post-blog.articles.gradient.compact h3 a{font-size:18px}
+.post-blog.articles .authorship,.post-blog.articles .excerpt{margin:8px 0}
+.hero-award .awards-wrapper,.articles.compact .badges-wrapper{margin:0}
+.hero-award .award-icon,.hero-meta,.articles.compact .awards-wrapper{margin-bottom:2px}
+.ms-slide .ms-video,.connect-social .social-badges a{padding:0}
+#comments ul ul ul,#comments ul ul ul ul ul ul ul ul ul ul ul{margin-left:30px}
+}
+/* Medium only */
+@media (min-width: 992px) and (max-width: 1199px) { 
+.top-ten-title{font-size:12px;line-height:13px;padding:0 10px 0 36px}
+.narrow .sort-buttons a,.narrow .sort-buttons span.page-numbers{width:29px;padding:8px 3px}
+.narrow .post-blog.articles.compact .article-image{width:80px;height:80px}
+.narrow .post-blog.compact .meter-circle-wrapper{margin-top:7px}
+.narrow .post-blog.articles.compact .article-image-wrapper{margin-bottom:5px}
+.narrow .post-blog.articles.gradient.compact h3{line-height:17px}
+.narrow .post-blog.articles.gradient.compact h3 a{font-size:13px}
+.narrow .compact-panel .article-title{font-size:12px;line-height:15px}
+.narrow .overlay-panel .article-title{font-size:13px;line-height:16px;margin:23px 2px 0 12px}
+.narrow .overlay-panel.has-rating .article-title{margin-right:75px}
+.narrow .overlay-panel.first .article-title{font-size:16px;margin:36px 10px 10px}
+.narrow .overlay-panel.first.has-rating .article-title{margin-right:10px}
+.narrow .overlay-panel.first.has-award .article-title{margin-top:12px}
+.narrow .post-grid .grid-3 h3 a{font-size:14px;line-height:16px}
+.narrow .floated .bar-label-wrapper{margin-right:0;width:100%}
+.narrow .floated .bar-label{width:100%;float:none;display:block;border-bottom:1px solid #D7D8DF}
+.narrow .floated .sort-buttons{float:none}
+.procon-box .procon,.ratings .bottomline{font-size:12px}
+.details-box{padding:13px}
+.ratings .bottomline{padding:13px 0 18px 13px}
+.reaction{padding:17px 7px}
+#recommended .sort-buttons a{font-size:11px;padding:12px 10px}
+#comments a.reply-link{padding-left:10px}
+#comments .pagination a,#comments span.current,#comments span.dots{padding-left:8px;padding-right:8px}
+#comments ul ul .comment-fields-container,#comments ul ul .comment-ratings-container{width:100%;float:none}
+#comments ul ul .comment-ratings-inner{margin-left:0;margin-bottom:20px}
+.ratings.stars-wrapper .rating-label{font-size:13px;line-height:15px!important}
+.narrow .articles.gradient.compact .category-icon-wrapper,.narrow .articles.gradient.compact .user_rating,.narrow .articles.compact .awards-wrapper,.narrow .articles.widget_e .rating-container,#recommended .bar-label{display:none}
+.narrow .articles.gradient.compact.widget_d .user_rating,.narrow .articles.compact.widget_d .awards-wrapper{display:block}
+}
+/* Small and down */
+@media (max-width: 991px) { 
+#ad-header{padding:10px 0}
+.header-social{padding-top:7px;width:auto}
+#new-articles .post-container a{font-size:11px;padding:12px 12px 12px 36px}
+#new-articles .post-container .no-icon a{padding-left:12px}
+#new-articles .post-container .category-icon{position:absolute;top:17px;left:12px}
+#section-menu{margin-left:10px}
+.mega-menu-item a.parent-item{margin-right:0!important;padding-right:10px!important;padding-left:10px!important}
+#section-menu .mega-wrapper .post-list a{width:100%;padding:8px 10px!important;text-align:left}
+#section-menu .mega-wrapper .post-list a img{display:none}
+.mega-wrapper .post-list{padding-top:15px}
+.utility-menu a{padding:11px 9px}
+.utility-menu .home-button a{width:26px;padding:7px 7px 9px 8px}
+.porthole{float:none;height:170px;border-left:4px solid #7B7B7F;border-bottom:0}
+.porthole-info .porthole-inner,.cols-4 .porthole-info .porthole-inner,.cols-3 .porthole-info .porthole-inner{padding:20px 15px 30px 160px}
+.portholes .meter-circle-wrapper{position:absolute;top:20px;left:15px;margin:0}
+.porthole-info .article-meta,.cols-4 .porthole-info .article-meta,.cols-3 .porthole-info .article-meta{left:auto;right:0}
+.porthole-info h3,.cols-4 .porthole-info h3,.cols-3 .porthole-info h3{font-size:23px;line-height:30px}
+.porthole-info .user_rating{top:12px;right:12px}
+div.scrollingHotSpotRight,div.scrollingHotSpotLeft,div.scrollingHotSpotRightVisible,div.scrollingHotSpotLeftVisible{display:none!important}
+.trending-panel{width:265px;}
+.trending-title{font-size:12px;line-height:13px;max-width:135px;padding:4px 0 0 9px}
+.top-ten-number{font-size:30px;min-width:24px;top:-9px}
+.top-ten-title{font-size:11px;line-height:12px;padding:0 8px 0 28px}
+.meter-circle .rating-wrapper{opacity:.9!important}
+.meter-circle.non-rated .rating-wrapper{opacity:0!important}
+.articles .article-panel{margin-bottom:25px}
+.articles .article-image-wrapper{position:relative;display:inline-block;float:left;padding-bottom:22px}
+.articles .article-image{margin-right:15px}
+.articles.widget_e .article-panel{float:left;width:50%;margin-bottom:15px}
+.articles.widget_e .article-panel.right .article-image{margin-right:0}
+.post-grid .authorship.type-author{position:relative;padding:10px 0 0}
+.articles .excerpt{font-size:14px;line-height:19px}
+.articles.gradient .grid-3 .authorship.type-date,.articles.gradient .grid-3 .authorship.type-date.no-margin{left:52%;right:auto;margin-left:0}
+.articles.gradient .grid-4 .authorship.type-date,.articles.gradient .grid-4 .authorship.type-date.no-margin{left:39%;right:auto;margin-left:0}
+.articles.gradient.widget_e .grid-3 .authorship.type-date,.articles.gradient.widget_e .grid-3 .authorship.type-date.no-margin{left:0;margin-left:45px;position:absolute;bottom:0}
+.post-grid.widget_e .grid-3 .article-image{width:auto;height:auto}
+.ms-tabs-vertical-template{padding-left:95px}
+.ms-tabs-template .ms-thumb-list.ms-dir-v{width:95px;left:-96px!important}
+.ms-thumb-list.ms-dir-v .ms-thumb-frame{width:75px;height:66px}
+.ms-tabs-template .ms-thumb-list.ms-dir-v .ms-thumb-frame .ms-thumb-ol{height:66px;background-size:14px 66px!important}
+.hero-panel{padding:6px 4px}
+.ms-layer.ms-caption-title{padding-right:120px!important}
+.headliner-info{padding:26px 15px 15px 400px}
+.headliner-info a.title{font-size:22px;line-height:27px}
+.headliner-readmore .readmore{display:block;float:none;position:absolute;bottom:0;right:0}
+.connect-email input.email-textbox{width:106px;font-size:11px;color:#000;padding:7px 7px 8px 8px}
+.connect-social{padding:8px 7px 7px}
+.connect-social .social-badges a{font-size:12px;padding:0}
+.connect-counts .social-counts{padding:0 0 0 8px}
+.connect-counts .social-counts .social-panel{padding-left:0}
+.connect-counts .social-counts a{font-size:14px;padding:7px 10px 4px 0}
+.connect .bar-label{padding:8px 8px 0}
+.connect .bar-label.has-icon{padding-right:11px}
+.narrow .bar-header.sortbar{height:38px;width:auto}
+.narrow .sortbar .bar-label-wrapper{margin-right:15px;width:auto}
+.narrow .sortbar .bar-label{width:auto;float:left;display:inline-block}
+.narrow .post-blog.articles.compact .article-image-wrapper{margin:0}
+.narrow .floated .bar-header.sortbar{height:auto;width:100%}
+h1.main-title{font-size:30px;line-height:34px;margin-bottom:10px}
+h1.main-title.archive-title{font-size:24px;line-height:28px}
+.billboard-subtitle {font-size:23px}
+.main-header{margin-bottom:15px}
+.billboard h1.main-title{font-size:50px;line-height:50px;margin:30px 30px 30px}
+.container.billboard .container.boxed{margin-top:50px}
+#recommended .sort-buttons a{padding:12px 7px}
+#comments ul ul ul .comment-fields-container,#comments ul ul ul .comment-ratings-container{width:100%;float:none}
+#comments ul ul ul .comment-ratings-inner{margin-left:0;margin-bottom:20px}
+#comments ul ul{margin-left:30px}
+#comments ul ul ul{margin-left:15%}
+#comments ul ul ul ul{margin-left:20px}
+#comments ul ul ul ul ul .comment-rating .rating-wrapper{width:290px}
+#comments ul ul ul ul ul ul ul .comment-rating .rating-wrapper{width:270px}
+#comments ul ul ul ul ul ul ul ul ul .comment-rating .rating-wrapper{width:250px}
+#comments ul ul ul ul ul ul ul ul ul .comment-rating .rating-wrapper .rating{display:block;width:100%;float:none}
+#comments ul ul ul ul ul ul ul ul ul .comment-rating .rating-wrapper .value{display:block;width:100%;float:none;margin-bottom:10px}
+.buddypress-page #item-header-avatar{position:relative;float:none}
+.buddypress-page #buddypress div#item-header div#item-header-content{padding-left:0;min-height:1px;float:left;position:relative}
+.buddypress-page #buddypress div#item-header div#item-actions{position:relative;top:0;right:0}
+.buddypress-page #buddypress form#whats-new-form p.activity-greeting{line-height:1.4em}
+.buddypress-page #buddypress .standard-form #basic-details-section,.buddypress-page #buddypress .standard-form .buddypress-page #blog-details-section,.buddypress-page #buddypress .standard-form #profile-details-section{width:100%;float:none;margin-top:35px}
+.mega-content,.mega-menu-item .mm-subopen,.mega-menu-item .mm-counter,.post-grid br.clearer,.ms-tabs-template .ms-thumb-frame h3,.connect-email .theme-icon-email,#comments ul ul ul .comment-avatar-wrapper{display:none}
+.mm-counter,.mm-subopen{display: block !important;}
+.cols-3 .porthole,.cols-4 .porthole,.cols-5 .porthole,.cols-6 .porthole,#comments ul ul ul .comment-content,#comments ul ul ul ul .comment-content,#comments ul ul ul ul ul .comment-content{width:100%}
+.headliner-category,.widget-panel.left,.widget-panel.mid{border-right:0}
+.connect-counts .social-counts .social-panel span,.billboard-authorship .authorship,.billboard-authorship .authorship a{font-size:14px}
+#comments ul .comment-avatar-wrapper,#comments ul ul .comment-avatar-wrapper{width:10%}
+#comments ul .comment-content,#comments ul ul .comment-content{width:90%}
+.post-grid .article-panel{min-height:1px!important}
+} 
+/* Small only */
+@media (min-width: 783px) and (max-width: 991px) { 
+.post-grid .grid-3 .article-image{width:360px;height:240px}
+.post-grid .grid-4 .article-image{width:263px;height:180px}
+}
+/* WordPress menu break point */
+@media (max-width: 782px) {
+body{max-width:100%;overflow-x:hidden}
+#sticky-bar.admin-bar,#sticky-bar.admin-bar.fixed{top:46px!important}
+#header{position:relative;top:61px;height:auto;overflow:visible}
+#it-ad-header{float:none}
+#sticky-bar{position:fixed;top:0!important}
+.demo-wrapper{display:none}
+#new-articles .post-container .column{width:100%;float:none}
+#new-articles .post-container a{font-size:11px;line-height:14px;padding:5px 6px 5px 30px}
+#new-articles .post-container .no-icon a{padding-left:10px}
+#new-articles .post-container .category-icon{top:3px;left:8px}
+a#back-to-top{right:88px;width:38px!important}
+#header-inner{padding-top:30px}
+#header-inner.solo{padding-top:65px}
+#header-inner.solo.no-padding,#header-inner.no-padding{padding-top:0}
+#header .logo{float:none}
+#ad-header{float:none;width:100%!important;padding:15px 0}
+.header-social{position:absolute;top:0;right:10px}
+#sticky-bar.logo-slide .logo{display:none!important}
+#sticky-bar .logo{display:none}
+#sticky-logo-mobile{display:block}
+#sticky-bar #sticky-menu-selector,#sticky-bar.fixed #sticky-menu-selector,#sticky-bar.logo-slide.fixed #sticky-menu-selector{padding-left:0;padding-right:0;width:30px}
+#sticky-bar #new-articles .selector,#sticky-bar.fixed #new-articles .selector,#sticky-bar.logo-slide.fixed #new-articles .selector{width:34px}
+#sticky-bar #section-menu,#sticky-bar.fixed #section-menu,#sticky-bar.logo-slide.fixed #section-menu{margin-left:0}
+#sticky-bar #section-menu a,#sticky-bar.fixed #section-menu a,#sticky-bar.logo-slide.fixed #section-menu a{padding-left:8px;padding-right:8px}
+#sticky-bar #random-article,#sticky-bar.fixed #random-article,#sticky-bar.logo-slide.fixed #random-article{width:26px;padding-left:3px;padding-right:3px}
+#sticky-bar #sticky-controls a,#sticky-bar.fixed #sticky-controls a,#sticky-bar.logo-slide.fixed #sticky-controls a{padding-left:5px;padding-right:5px;width:30px}
+#menu-search-button span{padding-right:6px;padding-left:6px;width:28px}
+#menu-search{left:-113px;width:150px}
+#menu-search input#s{width:150px;padding-right:30px;padding-left:12px}
+.sticky-form{position:fixed}
+.after-header{margin-top:61px!important}
+.simply-scroll-btn-left{left:50%;top:auto;bottom:-56px;width:46px;height:56px;margin-left:-48px}
+.simply-scroll-btn-right{left:50%;top:auto;bottom:-56px;width:46px;height:56px;margin-right:-48px}
+.explicit-wrapper{padding:23px 0 56px}
+.trending{margin-top:0;margin-bottom:8px}
+.trending-wrapper .loading{top:55px}
+.post-grid .grid-3 .article-info{float:left;width:50%}
+.post-grid .grid-3 h3 a{font-size:15px;line-height:18px}
+.post-grid .grid-3 .article-image-wrapper{width:50%}
+.post-grid .grid-4 .article-info{float:left;width:61%}
+.post-grid .grid-4 h3 a{font-size:14px;line-height:16px}
+.post-grid .grid-4 .article-image-wrapper{width:39%}
+.post-grid .grid-4 .meter-circle-wrapper{margin-top:10%}
+.articles.gradient .grid-3 .authorship.type-date,.articles.gradient .grid-3 .authorship.type-date.no-margin{left:50%}
+.articles.gradient .grid-4 .authorship.type-date,.articles.gradient .grid-4 .authorship.type-date.no-margin{left:40%}
+.articles.gradient.widget_e .grid-3 .authorship.type-date,.articles.gradient.widgets_e .grid-3 .authorship.type-date.no-margin{left:0}
+.container.no-padding,.post-grid.widget_e .grid-3 .article-image-wrapper{width:100%}
+#sticky-bar .container,#sticky-bar.logo-slide #sticky-controls a#sticky-register,#sticky-bar.logo-slide.fixed #sticky-controls a#sticky-register{padding-left:5px}
+} 
+/* Extra Small */
+@media (max-width: 767px) { 
+#section-menu .mega-wrapper .post-list a{font-size:12px;line-height:14px;padding:5px 10px!important}
+.utility-menu-compact{display:block;position:relative;z-index:200}
+.utility-menu a.utility-menu-selector,.utility-menu a.utility-menu-selector:hover{color:#FFF;font-family:'Roboto Condensed', sans-serif;font-weight:700;font-size:13px;cursor:pointer;padding:0 15px}
+.utility-menu .home-button a{width:36px;padding:7px 10px 9px}
+.utility-menu ul li ul{position:absolute;top:36px;left:-1px}
+.utility-menu ul li ul li{position:relative}
+.utility-menu ul li ul li ul{top:-8px;left:25px}
+.porthole{height:auto;min-height:180px}
+.porthole-info .porthole-inner,.cols-4 .porthole-info .porthole-inner,.cols-3 .porthole-info .porthole-inner{padding:15px 10px 10px 150px}
+.portholes .meter-circle-wrapper{top:15px;left:8px}
+.porthole-info h3,.cols-4 .porthole-info h3,.cols-3 .porthole-info h3{font-size:15px;line-height:19px}
+.porthole-info .category-icon{margin-bottom:0;position:absolute;top:13px;left:10px}
+.porthole-info .article-meta{bottom:7px;left:10px}
+.pagination-wrapper.mobile{display:block}
+.articles .excerpt{font-size:12px;line-height:17px;margin-bottom:8px}
+.articles .article-info{margin-top:25px}
+.post-grid .authorship.type-author{padding-top:6px}
+.post-blog.articles .article-info{margin-top:0;padding-left:279px}
+.ms-layer.ms-caption-title{padding-right:120px!important}
+.ms-layer.ms-caption-title h1 a{font-size:20px}
+.ms-layer.ms-caption-title h1{line-height:25px}
+.headliner-panel{height:auto}
+.headliner-label{top:16px;left:35px}
+.headliner-info a.title{font-size:30px;line-height:35px}
+.headliner-info{position:relative;padding:69px 15px 35px 20px}
+.connect .bar-header{height:auto;min-height:38px}
+.connect-email input.email-textbox{width:106px;font-size:11px;color:#000;border-bottom:1px solid #D9D9D9;padding:7px 7px 8px 8px}
+.connect-social{position:relative;min-width:60px;margin-left:10px;float:right;padding:8px 7px 7px}
+.connect-social .social-badges a{font-size:12px;padding:0}
+.connect-counts .social-counts{padding:0 0 0 8px}
+.connect-counts .social-counts .social-panel{padding-left:0}
+.connect-counts .social-counts .social-panel span{font-size:14px}
+.connect-counts .social-counts a{font-size:14px;padding:7px 10px 4px 0}
+.connect .bar-label{padding:8px 8px 0}
+.connect .bar-label.has-icon{padding-right:11px}
+.top-ten-title{font-size:16px;line-height:17px}
+.top-ten-panel{width:100%;padding:5px 0}
+.narrow .floated .sortbar .bar-label-wrapper{margin-right:15px;width:auto}
+.narrow .floated .sortbar .bar-label{width:auto;float:left;display:inline-block}
+.narrow .floated .sort-buttons{float:right}
+.procon-box .col-wrapper{width:100%;float:none}
+.procon-box .procon{font-size:13px}
+.procon-box .procon.con{margin-left:0}
+.ratings .bottomline{font-size:13px;padding:10px 15px}
+.ratings .total-info .rating-wrapper{top:0}
+.ratings .rating-label{font-size:13px;padding-right:15px}
+#main-content p{margin-bottom:15px}
+h1.main-title.archive-title{font-size:20px;line-height:24px}
+.billboard h1.main-title{font-size:40px;line-height:40px;margin:10px 20px 20px}
+.billboard-subtitle {font-size:18px}
+.container.billboard .container.boxed{margin-top:30px}
+.billboard-authorship .authorship,.billboard-authorship .authorship a{font-size:12px}
+.bar-header.page-controls{margin-bottom:34px;position:relative}
+#postnav{position:absolute;left:-1px;top:42px}
+.previous-button .article-info{left:0}
+.share-wrapper{position:absolute;display:block;right:0;top:43px;min-width:1px}
+.share-wrapper.non-control-bar {top:-35px}
+.share-wrapper .addthis_native_counter_parent,.share-wrapper .addthis_button_compact{border-left:0}
+.atm-i{top:47px;right:-1px}
+.contents-menu-wrapper.vertical{left:5px}
+.details-box{padding:13px}
+.details-box .detail-label{width:85px;font-size:13px}
+.details-box .detail-content{padding-left:100px;font-size:12px}
+.reaction{padding:17px 7px}
+#recommended .sort-buttons a{font-size:11px;padding:12px 8px}
+#recommended .articles{margin:15px 0}
+.postinfo .post-tags{float:left;text-align:left;margin-top:20px;margin-bottom:10px}
+#comments{margin:0;padding:10px 0 0}
+#comments a.reply-link{padding-left:10px}
+#comments .comment-rating-inner{padding:13px 13px 7px}
+#comments .comment-text{padding-top:12px}
+#comments .comment{padding:10px 0}
+#comments .pagination a,#comments span.current,#comments span.dots{padding-left:8px;padding-right:8px}
+.comment-fields-container,.comment-ratings-container{width:100%!important;float:none!important}
+.comment-ratings-inner{margin-left:0!important;margin-bottom:10px}
+h3#reply-title{margin-top:0}
+#reply-form{padding-bottom:0}
+#comments ul ul{margin-left:5%!important}
+#comments ul .comment-avatar-wrapper{display:none!important}
+#comments ul .comment-content{width:100%!important}
+.ratings.stars-wrapper .rating-wrapper .theme-icon-check{right:50%;margin-right:-9px;top:30px;z-index:5}
+li.product,.woocommerce-page ul.products li.product{float:none!important;width:100%!important;margin-right:0!important}
+.woocommerce div.product div.images,.woocommerce-page div.product div.images,.woocommerce #content div.product div.images,.woocommerce-page #content div.product div.images,.woocommerce div.product div.summary,.woocommerce-page div.product div.summary,.woocommerce #content div.product div.summary,.woocommerce-page #content div.product div.summary{float:none!important;width:100%!important}
+.utility-menu-full,.porthole-info .user_rating,.pagination-wrapper,.hero-flourish,.hero-meta,.headliner-panel .image-wrapper,.connect-email .theme-icon-email,#recommended .bar-label{display:none}
+}
+/* Tiny */
+@media (max-width: 600px) { 
+html.mm-opened{margin-top:0!important}
+html.mm-opened #header{margin-top:46px!important}
+#sticky-bar.admin-bar{position:absolute!important}
+#sticky-bar.admin-bar.sticky-mobile{position:fixed!important;top:0!important}
+.post-blog.articles .article-info{padding-left:0;margin-top:25px;float:none;width:100%}
+.post-blog.articles .article-image-wrapper{position:relative;float:none}
+.articles .article-panel{margin-bottom:20px}
+.articles .article-image{margin-right:0}
+.articles .article-info{margin-top:15px}
+.post-blog.articles.compact .article-info{padding-left:129px;margin-top:0}
+.post-blog.articles.compact .article-image-wrapper{position:absolute}
+.articles.gradient .grid-4 .authorship.type-date,.articles.gradient .grid-3 .authorship.type-date{position:relative;top:3px;left:0px;padding-left:43px}
+.articles.gradient .grid-4 .authorship.type-date.no-margin,.articles.gradient .grid-3 .authorship.type-date.no-margin{position:relative;top:8px;left:0}
+.articles.gradient.widget_e .grid-3 .authorship.type-date,.articles.gradient.widget_e .grid-3 .authorship.type-date.no-margin{position:absolute;top:auto;bottom:0;left:0}
+.articles .article-image-wrapper{padding-bottom:0}
+.post-grid .authorship.type-author{position:absolute;right:20px;bottom:0;padding:0}
+.narrow .post-blog.articles.compact .article-image-wrapper{margin:0 14px 22px 0}
+.trending-wrapper .sort-buttons{padding-left:0}
+.trending-wrapper .sortbar .bar-label{width:auto;float:left;display:inline-block}
+.top-ten .sort-buttons{padding-left:5px}
+.top-ten .sortbar.dark .sort-buttons a,.top-ten .sortbar.dark .sort-buttons span.page-numbers{width:20px;font-size:14px;padding:8px 0}
+.ms-slide .ms-slide-bgcont{padding:0}
+.ms-layer.ms-caption-title{padding-right:0!important}
+.ms-layer.ms-caption-title h1 a{font-size:16px;padding:10px}
+.ms-layer.ms-caption-title h1{line-height:20px}
+.ms-skin-default .ms-nav-next{right:30px}
+.hero-label{width:90px;font-size:11px;padding:6px 2px}
+.ms-skin-default .ms-slide .ms-slide-vpbtn{margin-left:-15px}
+.post-grid .grid-3 .article-image{width:100%;}
+.post-grid .grid-4 .article-image{width:100%;}
+.articles .article-image img {width:100%;height:auto;}
+.post-blog.articles .article-image {width:100%;height:auto;}
+.articles.widget_e .article-panel{width:100% !important;margin-bottom:35px;}
+.contents-menu-wrapper{display:none!important}
+.billboard h1.main-title{font-size:30px;line-height:30px;margin:0 10px 20px 10px}
+.billboard-subtitle {font-size:15px}
+.container.billboard .container.boxed{margin-top:30px}
+.billboard-authorship .authorship,.billboard-authorship .authorship a{font-size:10px}
+h1.main-title{font-size:24px;line-height:28px}
+h1.main-title.archive-title{font-size:18px;line-height:22px}
+.details-box .awards-wrapper{display:block}
+.section-title{font-size:22px}
+.details-box{padding:10px}
+.details-box .detail-label{width:75px;font-size:11px}
+.details-box .detail-content{padding-left:85px;font-size:11px}
+.ratings .rating-label{line-height:14px}
+.ratings.stars-wrapper .rating-label{line-height:14px;padding-top:6px}
+#recommended .sort-buttons a{border:1px solid #D7D8DF;background:#F7F8FF;margin-bottom:-1px;margin-left:-1px}
+#recommended .bar-header{overflow:visible;background:none;border:0}
+#comments a.reply-link{padding-top:7px}
+#respond .ratings .rating-wrapper{height:60px}
+.postinfo .author-profile-fields{margin-left:0}
+#comments .comment-rating .stars span{font-size:13px}
+#respond .ratings.stars-wrapper .rating-wrapper{height:auto}
+#comments .comment-rating .rating{line-height:15px;padding-top:5px}
+.ratings.stars-wrapper .rating-value-wrapper{width:80px;padding:0}
+h2.author-name{font-size:20px!important;line-height:24px!important}
+.author-bio{font-size:12px;lline-height:26px}
+.author-link{font-size:11px}
+.bp-page #buddypress form#whats-new-form p.activity-greeting{margin-left:0;font-size:18px;line-height:20px}
+.bp-page #buddypress form#whats-new-form #whats-new-content{margin-left:0;padding-left:0}
+.bp-page #buddypress button,.bp-page #buddypress a.button,.bp-page #buddypress input[type=submit],.bp-page #buddypress input[type=button],.bp-page #buddypress input[type=reset],.bp-page #buddypress ul.button-nav li a,.bp-page #buddypress div.generic-button a,.bp-page #buddypress .comment-reply-link,a.bp-title-button{font-size:11px!important;padding:2px 5px}
+.bp-page #buddypress div#item-header img.avatar{width:50px;height:50px;border-radius:50%;margin:10px 0 0}
+.bp-page #buddypress div#item-header ul#group-admins img.avatar{width:30px;height:30px}
+.bp-page #buddypress div#item-header div#item-header-content{padding-left:60px;min-height:100px}
+.bp-page #buddypress .activity-list .activity-content,.bp-page #buddypress div.activity-comments,.bp-page #buddypress ul.item-list li div.item-desc{margin-left:40px}
+.bp-page #buddypress ul.item-list li img.avatar{width:30px!important;height:30px!important;margin-top:0}
+.bp-page #buddypress div.item-list-tabs a,.bp-page #buddypress div#group-create-tabs ul li span,.bp-page #buddypress div.item-list-tabs#subnav a{height:24px;font-size:11px;padding:5px 4px}
+.bp-page #buddypress div.item-list-tabs ul li a span{top:-11px;right:-5px;min-width:16px;padding:2px 3px}
+.bp-page #buddypress div.item-list-tabs#subnav ul li.last{margin:2px 0 0 15px !important}
+.woocommerce-tabs #comments h2{font-size:20px;line-height:24px}
+.woocommerce .woo-page .col2-set .col-1,.woocommerce-page .woo-page .col2-set .col-1,.woocommerce .woo-page .col2-set .col-2,.woocommerce-page .woo-page .col2-set .col-2{float:none;width:100%;margin-top:15px}
+.articles .grid-3 .article-image-wrapper,.articles .grid-4 .article-image-wrapper,.post-grid .grid-3 .article-info,.post-grid .grid-4 .article-info{float:none;width:100%}
+.articles.widget_e .article-panel,.trending-wrapper .sortbar .bar-label-wrapper,#recommended .bar-header-inner{width:auto}
+.bar-header.sortbar,.narrow .bar-header.sortbar{height:auto;width:100%}
+.sortbar .bar-label-wrapper,.narrow .sortbar .bar-label-wrapper{margin-right:0;width:100%}
+.sortbar .bar-label,.narrow .sortbar .bar-label{width:100%;float:none;display:block}
+.trending-wrapper .bar-header.sortbar,.top-ten .bar-header.sortbar{height:auto;width:auto}
+.ms-layer.ms-caption-column,.bar-controls .awards-wrapper,.bp-page #buddypress form#whats-new-form #whats-new-avatar{display:none}
+.template-authors .author-profile-fields,.bp-page #buddypress .activity-list .activity-content .activity-header,.bp-page #buddypress .activity-list .activity-content .comment-header,.bp-page #buddypress div.activity-comments div.acomment-meta,.bp-page #buddypress ul.item-list li div.item-title,.bp-page #buddypress table.messages-notices tr td.thread-from a{font-size:12px}
+.one_half,.one_third,.two_third,.three_fourth,.one_fourth,.one_fifth,.two_fifth,.three_fifth,.four_fifth,.one_sixth,.five_sixth{width:100%;margin-right:0}
+}
+/* One-offs */
+@media (max-width: 440px) { 
+.ms-tabs-vertical-template{padding-left:0}
+.ms-layer.ms-caption-title h1 a{font-size:14px;padding:8px 10px}
+.ms-layer.ms-caption-title h1{line-height:18px}
+.ms-loading-container .ms-loading,.ms-slide .ms-slide-loading{left:50%}
+.no-column .ms-container {margin-right:0px}
+.headliner-info a.title{font-size:22px;line-height:27px}
+.post-blog.articles.gradient.compact h3{line-height:19px}
+.post-blog.articles.gradient.compact h3 a{font-size:14px}
+.post-grid .grid-3 .article-image,.post-grid .grid-3 .article-image img{width:100%;height:auto}
+.articles.compact .badges-wrapper{display:block;float:none}
+.postnav-button a{font-size:14px;padding:6px 3px}
+.postnav-button .article-info{top:30px}http://www.industrialthemes.com/explicit/the-hunger-games-catching-fire/
+.share-wrapper .addthis_20x20_style .addthis_counter.addthis_bubble_style.addthis_native_counter a.addthis_button_expanded{height:30px!important;padding:5px 3px 5px 21px !important}
+.share-wrapper span.theme-icon-plus{padding:5px 4px}
+.share-wrapper .addthis_native_counter_parent,.share-wrapper .addthis_button_compact{height:30px}
+.share-wrapper .share-span{top:5px;left:3px}
+h1.main-title{font-size:22px;line-height:25px}
+.total-rating-wrapper{width:100%!important;float:none!important;margin-bottom:25px}
+.reaction{padding:17px 7px 0}
+.postinfo .bar-label{padding:8px 6px 0}
+.bar-header.page-controls{margin-bottom:28px}
+.postinfo a.author-name{font-size:14px;padding:10px 5px 10px 10px}
+#comments .comment-author{float:none;display:block}
+#recommended h3{font-size:17px;line-height:20px}
+#comments .comment-rating .rating-wrapper{width:255px}
+#comments ul ul .comment-rating .rating-wrapper{width:245px}
+#comments ul ul ul .comment-rating .rating-wrapper{width:235px}
+#comments ul ul ul ul .comment-rating .rating-wrapper{width:225px}
+#comments ul ul ul ul ul .comment-rating .rating-wrapper{width:215px}
+#comments ul ul ul ul ul ul .comment-rating .rating-wrapper{width:205px}
+#respond .ratings .form-selector-wrapper{width:220px}
+#respond .ratings .rating-label,#comments .ratings .rating-label{padding-top:13px}
+.ratings.stars-wrapper .rating-value-wrapper{width:50px}
+.ratings.stars-wrapper .rating-value .stars span:before{font-size:11px;width:11px;position:relative;top:-1px}
+div.rateit div.rateit-range{background:url(../images/star-empty-small.png);background-size:10px 10px!important;height:10px}
+div.rateit div.rateit-hover,div.rateit div.rateit-preset,div.rateit div.rateit-selected{background:url(../images/star-full-small.png);background-size:10px 10px!important}
+div.rateit div.rateit-reset{background:url(../images/star-empty-small.png);background-size:10px 10px!important;width:10px;height:10px}
+div.rateit div.rateit-reset:hover{background:url(../images/star-empty-small.png);background-size:10px 10px!important}
+div.rateit.mobile{display:inline-block}
+.ratings.stars-wrapper .user-rating div.rateit{margin:0}
+.ratings.stars-wrapper .rating-wrapper .theme-icon-check{top:27px}
+.ms-tabs-template .ms-thumb-list.ms-dir-v,.post-blog.articles.compact .excerpt,.postinfo .bar-header .theme-icon-username,div.rateit{display:none}
+.ratings .rating-criteria .ratings-panel{position:relative;left:-5px}
+.articles.gradient a.layer-link{width:90%}
+}
+/*************************************************
+retina declarations for specific responsive layouts
+*************************************************/	
+@media (max-width: 440px), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+div.rateit div.rateit-hover,div.rateit div.rateit-preset,div.rateit div.rateit-selected{background:url(../images/star-full-small@2x.png)}
+div.rateit div.rateit-range,div.rateit div.rateit-reset,div.rateit div.rateit-reset:hover{background:url(../images/star-empty-small@2x.png)}
+}
