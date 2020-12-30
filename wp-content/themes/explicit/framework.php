@@ -23,7 +23,7 @@ class IndustrialThemes {
 		define( 'CHILD_THEME_URI', get_stylesheet_directory_uri() );
 		define( 'CHILD_THEME_DIR', get_stylesheet_directory() );
 		define( 'FRAMEWORK_VERSION', '1.0' );
-		define( 'DEMO_URL', 'http://www.industrialthemes.com/explicit' );
+		define( 'DEMO_URL', 'http://www.industrial_themes.com/explicit' );
 		define( 'SUPPORT_URL', DEMO_URL . '/support' );
 		define( 'CREDITS_URL', SUPPORT_URL . '/credits' );
 		define( 'DOCUMENTATION_URL', THEME_URI . '/documentation' );
