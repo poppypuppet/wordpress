@@ -187,7 +187,7 @@ $layout = it_footer_layout($footer_layout);
                             
                         <?php } else { ?>
                         
-                            <?php _e( 'Fonts by', IT_TEXTDOMAIN); ?> <a href="http://www.google.com/fonts/"><?php _e( 'Google Fonts', IT_TEXTDOMAIN); ?></a>. <?php _e( 'Icons by', IT_TEXTDOMAIN); ?> <a href="http://fontello.com/"><?php _e( 'Fontello', IT_TEXTDOMAIN); ?></a>. <?php _e( 'Full Credits', IT_TEXTDOMAIN); ?> <a href="<?php echo CREDITS_URL; ?>"><?php _e( 'here &raquo;', IT_TEXTDOMAIN); ?></a>
+                            <?php _e( 'Fonts by', IT_TEXTDOMAIN); ?> <a href="http://www.google.com/fonts/"><?php _e( 'Google Fonts', IT_TEXTDOMAIN); ?></a>. <?php _e( 'Icons by', IT_TEXTDOMAIN); ?> <a href="http://fontello.com/"><?php _e( 'Fontello', IT_TEXTDOMAIN); ?></a>.
                         
                         <?php } ?>                         
                     
