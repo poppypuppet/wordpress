@@ -61,23 +61,23 @@ if(have_comments()) {
 
 		<?php if ( get_option('comment_registration') && !is_user_logged_in() ) : ?>
         
-            <p><?php _e('You must',IT_TEXTDOMAIN); ?>&nbsp;<a href="<?php echo wp_login_url(); ?>" title="<?php _e('log in',IT_TEXTDOMAIN); ?>"><?php _e('log in',IT_TEXTDOMAIN); ?></a>&nbsp;<?php _e('to post a comment',IT_TEXTDOMAIN); ?> </p>
+            <p><?php _e('您必须',IT_TEXTDOMAIN); ?>&nbsp;<a href="<?php echo wp_login_url(); ?>" title="<?php _e('登录',IT_TEXTDOMAIN); ?>"><?php _e('登录',IT_TEXTDOMAIN); ?></a>&nbsp;<?php _e('才可以回复',IT_TEXTDOMAIN); ?> </p>
             
         <?php else : ?>
         
             <?php //dislay comment form		
 			if(!it_get_setting('review_user_rating_disable') && it_get_setting('review_allow_blank_comments')) {
-				$comment_placeholder = __('Additional Comments (optional)',IT_TEXTDOMAIN);
+				$comment_placeholder = __('点评剧本 (可选)',IT_TEXTDOMAIN);
 			} else {
-				$comment_placeholder = __('Comment',IT_TEXTDOMAIN);
+				$comment_placeholder = __('点评剧本',IT_TEXTDOMAIN);
 			}
 			$fields = array();
-			$fields['author'] = '<input id="author" class="form-control" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" placeholder="'.__('Name',IT_TEXTDOMAIN).'" />';
+			$fields['author'] = '<input id="author" class="form-control" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" placeholder="'.__('昵称',IT_TEXTDOMAIN).'" />';
 			$fields['email'] = '<input id="email" class="form-control" name="email" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) . '" placeholder="'.__('E-mail',IT_TEXTDOMAIN).'" />';
-			$fields['website'] = '<input id="url" class="form-control" name="url" type="text" value="' . esc_attr( $commenter['comment_author_url'] ) . '" placeholder="'.__('Website (optional)',IT_TEXTDOMAIN).'" />';
+			$fields['website'] = '<input id="url" class="form-control" name="url" type="text" value="' . esc_attr( $commenter['comment_author_url'] ) . '" placeholder="'.__('所属单位 (可选)',IT_TEXTDOMAIN).'" />';
 			$comment_field = '<textarea id="comment" class="form-control" name="comment" aria-required="true" rows="8" placeholder="'.$comment_placeholder.'"></textarea>';
-			$title_reply = '<div class="section-subtitle"><span class="theme-icon-pencil"></span>'.__( 'Leave a Response',IT_TEXTDOMAIN ).'</div>';	
-			$title_reply_to = '<div class="section-subtitle"><span class="theme-icon-pencil"></span>'.__( 'Leave a Reply to %s',IT_TEXTDOMAIN ).'</div>';	
+			$title_reply = '<div class="section-subtitle"><span class="theme-icon-pencil"></span>'.__( '回复',IT_TEXTDOMAIN ).'</div>';	
+			$title_reply_to = '<div class="section-subtitle"><span class="theme-icon-pencil"></span>'.__( '回复 %s',IT_TEXTDOMAIN ).'</div>';	
             $commentargs = array(
                 'comment_notes_before' => '',
                 'comment_notes_after'  => '',
