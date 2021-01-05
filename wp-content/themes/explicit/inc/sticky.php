@@ -283,11 +283,11 @@ $section_menu_id = $mmenu_disable ? 'section-menu-mobile-ddl' : 'section-menu-mo
                         
                                 <div id="menu-search-button">
                                 
-                                    <span class="theme-icon-search info-bottom" title="<?php _e('Search',IT_TEXTDOMAIN); ?>"></span>
+                                    <span class="theme-icon-search info-bottom" title="<?php _e('搜索',IT_TEXTDOMAIN); ?>"></span>
                                     
                                 </div>
                             
-                                <div id="menu-search" class="info-bottom" title="<?php _e('Type and hit Enter',IT_TEXTDOMAIN); ?>">
+                                <div id="menu-search" class="info-bottom" title="<?php _e('输入并点击回车',IT_TEXTDOMAIN); ?>">
                                 
                                     <form method="get" id="searchformtop" action="<?php echo home_url(); ?>/">                             
                                         <input type="text" placeholder="<?php _e( 'search', IT_TEXTDOMAIN ); ?>" name="s" id="s" />          
