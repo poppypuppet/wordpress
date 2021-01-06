@@ -58,11 +58,11 @@ class itTrending {
 						'desc' => __( 'You can disable individual filter buttons.', IT_TEXTDOMAIN ),
 						'id' => 'disabled_filters',
 						'options' => array(
-							'liked' => __('Most Likes',IT_TEXTDOMAIN),
-							'viewed' => __('Most Views',IT_TEXTDOMAIN),
-							'reviewed' => __('Best Reviewed',IT_TEXTDOMAIN),
-							'rated' => __('Highest Rated',IT_TEXTDOMAIN),
-							'commented' => __('Commented On',IT_TEXTDOMAIN)
+							'liked' => __('最多点赞',IT_TEXTDOMAIN),
+							'viewed' => __('最近浏览',IT_TEXTDOMAIN),
+							'reviewed' => __('最高剧评人打分',IT_TEXTDOMAIN),
+							'rated' => __('最高用户打分',IT_TEXTDOMAIN),
+							'commented' => __('已点评',IT_TEXTDOMAIN)
 						),
 						'type' => 'checkbox'
 					),

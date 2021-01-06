@@ -42,34 +42,34 @@ class it_top_ten extends WP_Widget {
 		#determine default options
 		$default_metric = 'viewed';
 		$args['meta_key'] = IT_META_TOTAL_VIEWS;
-		$default_label = __('Most Views', IT_TEXTDOMAIN);
+		$default_label = __('最近浏览', IT_TEXTDOMAIN);
 		$default_icon = '';
 		#loop through each metric and set to default until one is found
 		if(!$disable_viewed) {
 			$default_metric = 'viewed';
 			$args['meta_key'] = IT_META_TOTAL_VIEWS;
-			$default_label = __('Most Views', IT_TEXTDOMAIN);
+			$default_label = __('最近浏览', IT_TEXTDOMAIN);
 		} elseif (!$disable_liked) {
 			$default_metric = 'liked';
 			$args['meta_key'] = IT_META_TOTAL_LIKES;
-			$default_label = __('Most Likes', IT_TEXTDOMAIN);
+			$default_label = __('最多点赞', IT_TEXTDOMAIN);
 		} elseif (!$disable_reviewed) {
 			$default_metric = 'reviewed';
 			$format['rating'] = true;
 			$args['meta_key'] = IT_META_TOTAL_SCORE_NORMALIZED;
 			$args['meta_query'] = array(array( 'key' => IT_META_DISABLE_REVIEW, 'value' => 'true', 'compare' => '!=' ));
-			$default_label = __('Best Reviewed', IT_TEXTDOMAIN);
+			$default_label = __('最高剧评人打分', IT_TEXTDOMAIN);
 		} elseif (!$disable_rated) {
 			$default_metric = 'users';
 			$format['rating'] = true;
 			$default_icon = 'rated';
 			$args['meta_key'] = IT_META_TOTAL_USER_SCORE_NORMALIZED;
 			$args['meta_query'] = array(array( 'key' => IT_META_DISABLE_REVIEW, 'value' => 'true', 'compare' => '!=' ));
-			$default_label = __('Highest Rated', IT_TEXTDOMAIN);
+			$default_label = __('最高用户打分', IT_TEXTDOMAIN);
 		} elseif (!$disable_commented) {
 			$default_metric = 'commented';
 			$args['orderby'] = 'comment_count';
-			$default_label = __('Most Comments', IT_TEXTDOMAIN);
+			$default_label = __('最多点评人次', IT_TEXTDOMAIN);
 		}
 		$format['metric'] = $default_metric;
 		if(empty($default_icon)) $default_icon = $default_metric;	

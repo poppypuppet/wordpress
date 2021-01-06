@@ -252,42 +252,42 @@ if(!function_exists('it_setup_filters')) {
 		if(!in_array('recent', $disabled_filters)) {
 			$default_metric = 'recent';
 			$args['orderby'] = 'date';
-			$default_label = __('Most Recent', IT_TEXTDOMAIN);
+			$default_label = __('最近上架', IT_TEXTDOMAIN);
 		} elseif(!in_array('viewed', $disabled_filters)) {
 			$default_metric = 'viewed';
 			$args['meta_key'] = IT_META_TOTAL_VIEWS;
 			$args['orderby'] = 'meta_value_num';
-			$default_label = __('Most Views', IT_TEXTDOMAIN);
+			$default_label = __('最近浏览', IT_TEXTDOMAIN);
 		} elseif (!in_array('liked', $disabled_filters)) {
 			$default_metric = 'liked';
 			$args['meta_key'] = IT_META_TOTAL_LIKES;
 			$args['orderby'] = 'meta_value_num';
-			$default_label = __('Most Likes', IT_TEXTDOMAIN);
+			$default_label = __('最多点赞', IT_TEXTDOMAIN);
 		} elseif (!in_array('reviewed', $disabled_filters)) {
 			$default_metric = 'reviewed';
 			$format['rating'] = true;
 			$args['meta_key'] = IT_META_TOTAL_SCORE_NORMALIZED;
 			$args['meta_query'] = array(array( 'key' => IT_META_DISABLE_REVIEW, 'value' => 'true', 'compare' => '!=' ), array( 'key' => IT_META_TOTAL_SCORE_NORMALIZED, 'value' => '0', 'compare' => 'NOT IN'));
 			$args['orderby'] = 'meta_value_num';
-			$default_label = __('Best Reviewed', IT_TEXTDOMAIN);
+			$default_label = __('最高剧评人打分', IT_TEXTDOMAIN);
 		} elseif (!in_array('rated', $disabled_filters)) {
 			$default_metric = 'users';
 			$format['rating'] = true;
 			$args['meta_key'] = IT_META_TOTAL_USER_SCORE_NORMALIZED;
 			$args['meta_query'] = array(array( 'key' => IT_META_DISABLE_REVIEW, 'value' => 'true', 'compare' => '!=' ), array( 'key' => IT_META_TOTAL_USER_SCORE_NORMALIZED, 'value' => '0', 'compare' => 'NOT IN'));
 			$args['orderby'] = 'meta_value_num';
-			$default_label = __('Highest Rated', IT_TEXTDOMAIN);
+			$default_label = __('最高用户打分', IT_TEXTDOMAIN);
 		} elseif (!in_array('commented', $disabled_filters)) {
 			$default_metric = 'commented';
 			$args['orderby'] = 'comment_count';
 			$args['meta_key'] = '';
-			$default_label = __('Most Comments', IT_TEXTDOMAIN);
+			$default_label = __('最多点评人次', IT_TEXTDOMAIN);
 		} elseif (!in_array('awarded', $disabled_filters)) {
 			$default_metric = 'awarded';
 			$args['meta_key'] = '';
 			$args['meta_query'] = array( array( 'key' => IT_META_AWARDS, 'value' => array(''), 'compare' => 'NOT IN') );
 			$args['orderby'] = 'date';
-			$default_label = __('Recently Awarded', IT_TEXTDOMAIN);
+			$default_label = __('最多获奖', IT_TEXTDOMAIN);
 		}
 		$format['metric'] = $default_metric;
 		#setup return array

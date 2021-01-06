@@ -1198,7 +1198,7 @@ if (!function_exists('it_get_sortbar')) {
 							} else {
 								$cssactive='';
 							}
-							$out .= '<a data-sorter="viewed" class="styled theme-icon-viewed viewed ' . $cssactive . ' ' . $infoclass . '" title="' . __('Most Viewed', IT_TEXTDOMAIN) . '">&nbsp;</a>';
+							$out .= '<a data-sorter="viewed" class="styled theme-icon-viewed viewed ' . $cssactive . ' ' . $infoclass . '" title="' . __('按浏览人次排序', IT_TEXTDOMAIN) . '">&nbsp;</a>';
 						}	
 						if(!in_array('liked', $disabled_filters)) {
 							if(!$active_shown && (empty($default) || $default=='liked')) {
@@ -1207,7 +1207,7 @@ if (!function_exists('it_get_sortbar')) {
 							} else {
 								$cssactive='';
 							} 
-							$out .= '<a data-sorter="liked" class="styled theme-icon-liked liked ' . $cssactive . ' ' . $infoclass . '" title="' . __('Most Liked', IT_TEXTDOMAIN) . '">&nbsp;</a>';
+							$out .= '<a data-sorter="liked" class="styled theme-icon-liked liked ' . $cssactive . ' ' . $infoclass . '" title="' . __('按点赞人次排序', IT_TEXTDOMAIN) . '">&nbsp;</a>';
 						}			
 						if(!in_array('reviewed', $disabled_filters)) {
 							if(!$active_shown && (empty($default) || $default=='reviewed')) {
@@ -1216,7 +1216,7 @@ if (!function_exists('it_get_sortbar')) {
 							} else {
 								$cssactive='';
 							}
-							$out .= '<a data-sorter="reviewed" class="styled theme-icon-reviewed reviewed ' . $cssactive . ' ' . $infoclass . '" title="' . __('Best Reviewed', IT_TEXTDOMAIN) . '">&nbsp;</a>';
+							$out .= '<a data-sorter="reviewed" class="styled theme-icon-reviewed reviewed ' . $cssactive . ' ' . $infoclass . '" title="' . __('最高剧评人打分', IT_TEXTDOMAIN) . '">&nbsp;</a>';
 						}					 
 						if(!in_array('rated', $disabled_filters)) {
 							if(!$active_shown && (empty($default) || $default=='rated')) {
@@ -1225,7 +1225,7 @@ if (!function_exists('it_get_sortbar')) {
 							} else {
 								$cssactive='';
 							}
-							$out .= '<a data-sorter="users" class="styled theme-icon-users users ' . $cssactive . ' ' . $infoclass . '" title="' . __('Highest Rated', IT_TEXTDOMAIN) . '">&nbsp;</a>';
+							$out .= '<a data-sorter="users" class="styled theme-icon-users users ' . $cssactive . ' ' . $infoclass . '" title="' . __('最高用户打分', IT_TEXTDOMAIN) . '">&nbsp;</a>';
 						}					
 						if(!in_array('commented', $disabled_filters)) {
 							if(!$active_shown && (empty($default) || $default=='commented')) {
@@ -1234,7 +1234,7 @@ if (!function_exists('it_get_sortbar')) {
 							} else {
 								$cssactive='';
 							}
-							$out .= '<a data-sorter="commented" class="styled theme-icon-commented commented ' . $cssactive . ' ' . $infoclass . '" title="' . __('Most Commented', IT_TEXTDOMAIN) . '">&nbsp;</a>';
+							$out .= '<a data-sorter="commented" class="styled theme-icon-commented commented ' . $cssactive . ' ' . $infoclass . '" title="' . __('最多点评人次', IT_TEXTDOMAIN) . '">&nbsp;</a>';
 						}					
 						if(!in_array('awarded', $disabled_filters)) {
 							if(!$active_shown && (empty($default) || $default=='awarded')) {
@@ -1243,7 +1243,7 @@ if (!function_exists('it_get_sortbar')) {
 							} else {
 								$cssactive='';
 							}
-							$out .= '<a data-sorter="awarded" class="styled theme-icon-awarded awarded ' . $cssactive . ' ' . $infoclass . '" title="' . __('Recently Awarded', IT_TEXTDOMAIN) . '">&nbsp;</a>';
+							$out .= '<a data-sorter="awarded" class="styled theme-icon-awarded awarded ' . $cssactive . ' ' . $infoclass . '" title="' . __('最多获奖', IT_TEXTDOMAIN) . '">&nbsp;</a>';
 						}
 						if(!in_array('title', $disabled_filters)) {	
 							if(!$active_shown && (empty($default) || $default=='title')) {
@@ -1252,7 +1252,7 @@ if (!function_exists('it_get_sortbar')) {
 							} else {
 								$cssactive='';
 							}
-							$out .= '<a data-sorter="title" class="styled theme-icon-sort title ' . $cssactive . ' ' . $infoclass . '" title="' . __('Alphabetical By Title', IT_TEXTDOMAIN) . '">&nbsp;</a>';
+							$out .= '<a data-sorter="title" class="styled theme-icon-sort title ' . $cssactive . ' ' . $infoclass . '" title="' . __('按标题排序', IT_TEXTDOMAIN) . '">&nbsp;</a>';
 						}
 					}
 				$out .= '</div>';	
